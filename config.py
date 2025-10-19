@@ -8,9 +8,9 @@ region_y2 = 352
 
 # obstacle coordinates
 obstacle_x1 = 673
-obstacle_y1 = 296
-obstacle_x2 = 728
-obstacle_y2 = 320
+obstacle_y1 = 306
+obstacle_x2 = 735
+obstacle_y2 = 316
 
 # pterodactyl coordinates
 pterodactyl_x1 = 680

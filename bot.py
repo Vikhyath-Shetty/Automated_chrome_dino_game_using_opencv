@@ -9,10 +9,20 @@ from config import region
 
 def create_window() -> None:
     cv.namedWindow("Chrome_Dino_Bot", cv.WINDOW_NORMAL)
-    cv.setWindowProperty("Chrome_Dino_Bot", cv.WND_PROP_TOPMOST, 1)
+    # cv.setWindowProperty("Chrome_Dino_Bot", cv.WND_PROP_TOPMOST, 1)
     cv.imshow("Chrome_Dino_Bot", np.zeros(
         (region["height"], region["width"], 3), dtype=np.uint8))
     subprocess.run(["wmctrl","-r","Chrome_Dino_Bot","-b","add,below"])
+
+
+
+# def on_press(key):
+#     print(f"{key} pressed")
+#     if key == keyboard.Key.esc:
+#         return False  # stop listener
+
+# with keyboard.Listener(on_press=on_press) as listener:
+#     listener.join()
 
 
 
@@ -26,6 +36,7 @@ def run_bot():
             py.keyDown("down")
             time.sleep(0.2)
             py.keyUp("down")
+
 
         cv.imshow("Chrome_Dino_Bot", game_region)
         if cv.waitKey(1) & 0xFF == ord('q'):

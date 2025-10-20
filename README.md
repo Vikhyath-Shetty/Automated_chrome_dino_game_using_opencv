@@ -2,6 +2,9 @@
 
 Chrome Dino Bot that uses OpenCV to detect obstacles and control the game. Works on Windows and Linux.
 
+![Demo](dino.gif)
+
+
 ## Features
 
 - Automatic detection of cactuses and pterodactyls using screenshots + OpenCV

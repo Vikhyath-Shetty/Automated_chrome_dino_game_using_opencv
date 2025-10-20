@@ -25,7 +25,7 @@ def detect_obstacles() -> Tuple[np.ndarray, bool, bool]:
         game_img, cactus, pterodactyl)
     sky_image = extract_sky_region(game_img, sky)
 
-    draw_bbox(game_img, cactus, pterodactyl)
+    # draw_bbox(game_img, cactus, pterodactyl)
 
     night = is_night(sky_image)
     cactus_detected = detect_cactus(cactus_img, night)

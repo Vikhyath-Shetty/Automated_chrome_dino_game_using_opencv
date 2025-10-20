@@ -7,15 +7,15 @@ region_x2 = 1336
 region_y2 = 352
 
 # obstacle coordinates
-obstacle_x1 = 665 #673
-obstacle_y1 = 309 #308
+obstacle_x1 = 665 
+obstacle_y1 = 312 #309
 obstacle_x2 = 760    
 obstacle_y2 = 316
 
 # pterodactyl coordinates
 pterodactyl_x1 = 680
 pterodactyl_y1 = 267  
-pterodactyl_x2 = 710
+pterodactyl_x2 = 715 #710
 pterodactyl_y2 = 275
 
 # sky coordinates

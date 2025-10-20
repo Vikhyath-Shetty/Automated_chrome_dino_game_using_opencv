@@ -9,7 +9,7 @@ region_y2 = 352
 # obstacle coordinates
 obstacle_x1 = 665 
 obstacle_y1 = 312 #309
-obstacle_x2 = 760    
+obstacle_x2 = 758 #760    
 obstacle_y2 = 316
 
 # pterodactyl coordinates
@@ -51,3 +51,6 @@ sky = {
     "width": sky_x2 - sky_x1,
     "height": sky_y2-sky_y1
 }
+
+#Global variable
+KILL_BOT = False

@@ -2,7 +2,7 @@ import numpy as np
 from typing import Tuple
 from .utils import draw_bbox, is_night, get_contours
 from .extract import extract_game_region, extract_obstacles_region, extract_sky_region
-from config import region, cactus, pterodactyl, sky
+from utils.config import region, cactus, pterodactyl, sky
 
 
 def detect_cactus(image: np.ndarray, night: bool) -> bool:
